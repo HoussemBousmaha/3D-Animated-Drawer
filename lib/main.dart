@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const CalenderApp(),
+    const AnimationApp(),
   );
 }
 
-class CalenderApp extends StatelessWidget {
-  const CalenderApp({Key? key}) : super(key: key);
+class AnimationApp extends StatelessWidget {
+  const AnimationApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
